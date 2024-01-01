@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#header {
+    background: url(./img/header-bg.png) no-repeat center/cover;
+    height: 100vh;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.header img {
+    margin-right: 120px;
+}
+.header-nav a {
+    margin-right:40px;
+    color: white;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+text-decoration: none;
+}
+.header-text h1 {
+font-size: 200px;
+font-weight: 700;
+line-height: 235px;
+letter-spacing: 0.6000000238418579px;
+color: #0D302C;
+
+}
+.header-text p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.6000000238418579px;
+}
+.header-text {
+    padding-top:200px;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; }
+.header-text img { 
+    padding-top: 270px;
+}
+#hero {
+    padding:90px 0 150px 0 ;
+}
+.hero-main h1 {
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+    color: #01353E;
+  
+}
+.hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-all{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly  ;
+    padding-top: 50px;
+}
+.hero-all p{
+    color: #242121;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.6px;
+    margin-top: 50px;
+}
+#first {
+    padding: 50px 0;
+    background: #F8F8F8;
+}
+.first h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.6000000238418579px;
+        color: #01353E;
+      
+    }
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card h3 {
+    margin-left: 20px;
+    color: #242121;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.6px;
+}
+.card p {
+    color: #242121;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.6px;
+margin-top: 18px ;
+}
+.first-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
