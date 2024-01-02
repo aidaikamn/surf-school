@@ -246,3 +246,40 @@ letter-spacing: 0.6px;
     justify-content: center;
     flex-direction: column;
 }
+#surf {
+    padding: 150px 0;
+}
+.surf {
+    position: relative; 
+}
+
+.surf-icon {
+    position: absolute;
+    top: 43%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); }
+.surf-statistic {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:  260px;
+}
+.surf-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.surf-num h1 {
+    color: #01353E;
+font-size: 64px;
+font-weight: 700;
+letter-spacing: 0.6px;
+}
+.surf-num p {
+    color: #242121;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.6px;
+}
