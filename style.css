@@ -26,6 +26,25 @@ font-size: 24px;
 font-weight: 400;
 line-height: 28px;
 text-decoration: none;
+transition: color 0.4s ease;}
+.header-nav a:hover  {
+  color: #00B2A0;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#header {
+    opacity: 0;
+    transform: translateY(-20px); 
+    animation: fadeInDown 0.8s ease forwards; 
 }
 .header-text h1 {
 font-size: 200px;
@@ -255,7 +274,7 @@ letter-spacing: 0.6px;
 
 .surf-icon {
     position: absolute;
-    top: 31%; 
+    top: 34%; 
     left: 50%; 
     transform: translate(-50%, -50%); }
 .surf-statistic {
@@ -451,4 +470,16 @@ line-height: 18px; /* 75% */
 letter-spacing: 0.6px;
 text-decoration: none;
 margin-right: 20px;
+transition: color 0.3s ease;}
+.sms-nav a:hover  {
+  color: #00B2A0;
+}
+#footer {
+    background: #00B2A0;
+    padding: 50px 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-self: center;
 }

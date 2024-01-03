@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header id="header">
+    <header  id="header">
         <div class="container">
-            <div class="header">
+            <div data-aos="fade-down" data-aos-duration="2000" class="header">
                 <img src="./img/logo.png" alt="">
                 <div class="header-nav">
                     <a href="#">О нас</a>
@@ -21,8 +22,14 @@
                 </div>
             </div>
             <div class="header-text">
-                <h1>WAWE</h1>
-                <p>Школа серфинга на канарских Островах</p>
+                <h1 data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1500">WAWE</h1>
+                <p data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="2000">Школа серфинга на канарских Островах</p>
                 <img src="./img/header-textlogo.png" alt="">
             </div>
         </div>
@@ -31,20 +38,28 @@
     <section id="hero">
         <div class="container">
             <div class="hero">
-                <div class="hero-main">
+                <div data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="1500" class="hero-main">
                     <h1>О  ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ </h1>
                 <img style="margin-top: 50px;" src="./img/hero-green.png" alt="">
 
                 </div>
               <div class="hero-all">
-                <div class="hero-left">
+                <div  data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-sine" class="hero-left">
                     <p>Канарские острова не случайно называют европейскими Гавайями – это <br> идеальное место для поклонников серфинга: стабильный теплый ветер <br> круглый год, песчаные пляжи, километры нетронутых просторов и <br> прозрачное море. А настоящей Меккой для серфингистов становится <br> Фуэртевентура – второй по величине остров архипелага.</p>
                     <p>Именно здесь лучшее в Испании место, в котором можно пройти обучение <br> серфингу. Кроме того, что зимой и осенью сюда приходят огромные <br> атлантические волны, Фуэртевентура может похвастать и множеством <br> мелководных спокойных лагун, отлично подходящих для обучения <br> начинающих серфингистов.</p>
                     <p>Серфинг на Канарских островах доступен круглый год – и волны, и <br> подходящая погода здесь есть всегда. Причем волну, подходящую по <br> уровню, сможет найти и настоящий профи, и новичок. Не случайно <br> считается, что именно это место лучше всего подойдет для обучения здесь <br> возможно без сложностей переходить на новый уровень.</p>
                     <p>Перечисляя достоинства, нельзя обойти и то, что пляжи Фуэртевентуры <br> самые протяженные на Канарах. В итоге невозможно представить их <br> переполненных туристами. Вы столкнетесь только с теми, кого,как и вас, <br> будет интересовать одна цель – обучение серфингу.</p>
 
                 </div>
-                <div class="hero-right">
+                <div data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-sine" class="hero-right" class="hero-right">
                     <p>Пока что вы только хотите понять, что такое серфинг, или уже испытали <br> всю прелесть катания на волнах, но желаете поднять свой уровень? Наша <br> школа серфинга сможет предложить обучение для любого уровня <br> подготовки.
                     </p>
                     <p>Четыре часа увлекательных занятий в день помогут вам уверенно покорять <br> волны, почувствовать себя настоящим серфингистом.</p>
@@ -60,11 +75,13 @@
     <section id="first">
         <div class="container">
             <div class="first">
-               <div class="hero-main">
+               <div  data-aos="fade-down"
+               data-aos-duration="2000" class="hero-main">
                  <h1>В  ШКОЛЕ ВЫ ПОЛУЧИТЕ</h1>
                 <img style="margin-top: 50px;" src="./img/hero-green.png" alt="">
             </div>
-            <div class="first-cards">
+            <div  data-aos="fade-up"
+            data-aos-duration="2000" class="first-cards">
                 <div class="card">
                     <div class="card-logo">
                     <img src="./img/sun.png" alt="">
@@ -94,7 +111,8 @@
                 </div>
             </div>
           <div class="card-dawn-all">
-            <div class="card-dawn-left">
+            <div data-aos="fade-up-right"
+            data-aos-duration="1500" class="card-dawn-left">
                 <div class="card-dawn">
                     <h2><img src="./img/small.png" alt="">85%</h2>
                     <p>Приехали второй раз</p>
@@ -108,7 +126,8 @@
                     <p>Довольных клиентов</p>
                 </div>
             </div>
-            <div class="card-dawn-right">
+            <div  data-aos="fade-left" 
+            data-aos-duration="1500" class="card-dawn-right">
                 <p style="margin-bottom: 30px;">Огромным преимуществом нашей школы является собственная методика обучения. Мы <br> разработали собственный стиль обучения серфингу, который позволяет новичкам <br> максимально быстро встать на доску. </p>
                 <p>Именно наша методика и наши преподаватели позволили нам пройти аттестацию Федерации <br> серфинга Канарских островов - FEDERACIÓN CANARIA DE SURF. Это означает, что наша школа <br> соответствует всем мировым стандартам. Переаттестация производится ежегодно и это <br> позволяет нам всегда стремиться к улучшению обучения.</p>
 
@@ -363,5 +382,17 @@
         </div>
     </div>
  </section>
+ <footer id="footer">
+    <div class="container">
+        <div style="    margin-top: 1pc;" class="sms-nav">
+            <img src="./img/logo.png" alt="">
+        </div>
+    </div>
+ </footer>
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
 </body>
 </html> 
