@@ -255,14 +255,14 @@ letter-spacing: 0.6px;
 
 .surf-icon {
     position: absolute;
-    top: 43%; 
+    top: 31%; 
     left: 50%; 
     transform: translate(-50%, -50%); }
 .surf-statistic {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top:  260px;
+    margin-top: 160px;
 }
 .surf-num {
     display: flex;
@@ -282,4 +282,94 @@ font-size: 14px;
 font-weight: 300;
 line-height: 18px; /* 128.571% */
 letter-spacing: 0.6px;
+}
+#blog {
+    padding: 0 0 100px 0;
+}
+#team {
+    padding: 0 0 150px 0;
+}
+.team-men {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+
+}
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+.people h4 {
+    margin-top: 30px;
+    color: #242121;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 100% */
+letter-spacing: 0.6px;
+}
+.people p {
+    color: #242121;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.6px;
+margin-top: 5px;
+}
+#usluga {
+    padding: 150px 0;
+    background: #F8F8F8;
+}
+.usluga-cards {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ margin-top: 150px;
+    }
+.u-card h1 {
+    color: #01353E;
+font-size: 36px;
+font-weight: 400;
+line-height: 40px; /* 111.111% */
+}
+.u-card p {
+    color: #242121;
+font-size: 14px;
+font-weight: 400;
+line-height: 40px; 
+letter-spacing: 0.6px;
+margin: 58px 0 40px 0;
+}
+.u-card h2 {
+    color: #01353E;
+font-size: 36px;
+font-weight: 400;
+line-height: 40px; /* 111.111% */
+}
+.u-card span {
+    color: #01353E;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px; /* 122.222% */
+margin-left: 6px;
+}
+.u-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+height: 577px;
+background: #FFF;
+}
+.u-money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
